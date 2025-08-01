@@ -157,6 +157,7 @@ def add_student(request):
                         'error': f'Total marks would exceed 100 (current: {old_marks}, adding: {marks})'
                     })
                 
+                print(new_marks,"--------------------")
                 existing_student.marks = new_marks
                 existing_student.save()
                 
