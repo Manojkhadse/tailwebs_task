@@ -1,5 +1,7 @@
 # tailwebs_task
 
+# Note - Don't follow the steps directly run the project also there is no need to makemigration and migrate do
+
 
 # Django Teacher Portal
 
@@ -78,9 +80,6 @@ A secure, logic-driven teacher portal built with Django that allows authenticate
    python manage.py migrate
    ```
 
-6. **Create a teacher user**
-   ```bash
-   python manage.py create_teacher admin password123
    ```
 
 7. **Run the development server**
@@ -103,9 +102,6 @@ teacher-portal/
 │   └── wsgi.py
 ├── portal/
 │   ├── migrations/
-│   ├── management/
-│   │   └── commands/
-│   │       └── create_teacher.py
 │   ├── __init__.py
 │   ├── models.py
 │   ├── views.py
@@ -122,7 +118,6 @@ teacher-portal/
 │   │   └── style.css
 │   └── js/
 │       └── main.js
-├── requirements.txt
 └── README.md
 ```
 
